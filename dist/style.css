@@ -1,0 +1,78 @@
+.card {
+  height: 31.25rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 1.25rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 2rem 3rem rgba(31, 50, 81, 0.1);
+          box-shadow: 0 2rem 3rem rgba(31, 50, 81, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 0.75rem;
+}
+
+.card__content {
+  margin: 1.5rem 1rem;
+  text-align: center;
+}
+
+.card__content h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f3251;
+}
+
+.card__content p {
+  font-size: 0.9375rem;
+  color: #7b929d;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
